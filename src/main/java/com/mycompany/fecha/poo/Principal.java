@@ -8,7 +8,7 @@ public class Principal {
         System.out.println("Ingrese el mes:");
         int month = sc.nextInt();
         System.out.println("Ingrese el año:");
-        int yar = sc.nextInt();
+        int year = sc.nextInt();
 
         Fecha fecha = new Fecha(day, month, year);
         if (fecha.validarFecha()) {
