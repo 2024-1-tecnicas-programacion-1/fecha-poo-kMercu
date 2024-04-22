@@ -1,6 +1,9 @@
 package com.mycompany.fecha.poo;
 import java.util.Scanner;
 public class Principal {
+    /**
+     * Complejidad temporal: O(N) - Tiempo lineal.
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Ingrese el día:");
